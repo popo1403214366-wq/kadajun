@@ -159,7 +159,7 @@ public class Question3 {
 	                
 	    //nyuuryokuの配列を一つずつ処理するためString型の変数itemにする
 	    for (String item : nyuuryoku) {
-	    //空白を取り除く
+	    //空白を取り除く 
                 item = item.trim();
 	    //テレビとディスプレイの場合一緒に処理をする　すでに値があるのでそのまま出力	                
 	    	switch (item) {	                  
