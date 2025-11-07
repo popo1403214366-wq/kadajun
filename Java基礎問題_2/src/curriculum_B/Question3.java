@@ -149,7 +149,7 @@ public class Question3 {
 	    //コンソール出力 "商品を入力してください"       
 	    System.out.println("商品を入力してください");        
 	    //String型の変数objに入力されたscannerの文字列を代入            	               
-	    String obj = scanner.next();
+	    String obj = scanner.nextLine();
 		//String型の配列nyuuryokuに入力されたobjの文字列をわけて代入            
 	    String[] nyuuryoku = obj.split("、");       
 	    //int型の変数tvを0～11のランダムな数字を代入
