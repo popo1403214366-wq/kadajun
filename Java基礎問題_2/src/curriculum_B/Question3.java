@@ -183,7 +183,7 @@ public class Question3 {
 	             	break;
 	    		case "洗濯機":	           
 	             	int num5 = rand.nextInt(12); 
-	             	System.out.printlnInt(item + "の残り台数は " + num5 + " 台です");
+	             	System.out.println(item + "の残り台数は " + num5 + " 台です");
 	             	break;
 	    		case "加湿器":	                 
 	             	int num6 = rand.nextInt(12); 
