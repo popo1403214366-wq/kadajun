@@ -167,7 +167,7 @@ public class Question3 {
 	    		case "ディスプレイ":
 	    			System.out.println(item +"の残り台数は " +(item.equals("テレビ") ? tv : display ) +" 台です");
 	                     break;
-	    //パソコンと冷蔵庫と扇風機と洗濯機と加湿器はそれぞれで処理する                 
+	     //パソコンと冷蔵庫と扇風機と洗濯機と加湿器はそれぞれで処理する                 
 	    	   //int型の変数num2～num6に0～11のランダムな数を代入する       
 	    		case "パソコン":         	
 	            	int num2 = rand.nextInt(12); 
