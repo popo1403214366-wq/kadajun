@@ -170,7 +170,7 @@ public class Question3 {
 	     //パソコンと冷蔵庫と扇風機と洗濯機と加湿器はそれぞれで処理する                 
 	    	   //int型の変数num2～num6に0～11のランダムな数を代入する       
 	    		case "パソコン":         	
-	            	int num2 = rand.nextInt(12); 
+	           	int num2 = rand.nextInt(12); 
 	            	System.out.println(item + "の残り台数は " + num2 + " 台です");
 	            	break;
 	    		case "冷蔵庫":
