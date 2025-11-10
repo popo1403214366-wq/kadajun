@@ -11,28 +11,28 @@ public class Question1 {
 //Q1	変数の宣言
 		
 		//-128～127の整数 byte
-		byte byteNum;
+		byte byteNum =0;
 		//-32,768～32,767の整数 short
-		short shortNum;
+		short shortNum = 0;
 		//-2,147,483,648～2,147,483,657の整数 int
-		int intNum;
+		int intNum = 0;
 		//非常に大きな整数 long
-		long longNum;
+		long longNum = 0L;
 		//少数（精度が低い） float
-		float floatNum;
+		float floatNum = 0.0f;
 		//少数（精度が高い double
-		double doubleNum;
+		double doubleNum = 0.0;
 		//1つの文字（'A','あ'など）
-		char letter;
+		char letter = '\u0000';
 		//複数の文字 String
-		String letters;
+		String letters = null;
 		//trueまたはfalse boolean
-		boolean isBoolean;
+		boolean isBoolean = false;
 		
 		
 		
 		
-//Q2	変数の初期化
+//Q2	変数の代入
 		
 		//変数byteNumに10を代入
 		byteNum = 10;		
@@ -61,17 +61,17 @@ public class Question1 {
 		//変数を用いて右記を出力 11110
 		System.out.println(longNum + intNum + shortNum + byteNum);
 		//変数を用いて右記を出力 20
-		System.out.println(byteNum + byteNum);
+		System.out.println(floatNum + doubleNum);
 		//変数を用いて右記を出力(間に半角スペース入れる) a ハロー true
 		System.out.println(letter + " " + letters + " " + isBoolean);
 		//数字を全て足して右記を出力 11130
 		System.out.println(longNum + intNum + shortNum + byteNum + byteNum + byteNum);
 		//小数点以外の数字を全てかけて右記を出力 1E+30
-		System.out.println(longNum * intNum * shortNum * byteNum * 1E+20);
+		System.out.println(longNum * intNum * shortNum * byteNum);
 		//10.5 割る100をして右記を出力 0.105
-		System.out.println(doubleNum / 100);
+		System.out.println(doubleNum / shortNum);
 		//10 引く100をして右記を出力 -90
-		System.out.println(10 - 100);
+		System.out.println(byteNum - shortNum);
 		
 		
 		
@@ -162,10 +162,10 @@ public class Question1 {
 		
 //Q12   int 型の変数 x に 15 を代入
 		int x = 15;
-		//String型の変数okornoにxが10以上のときOK、そうでなければNGを代入
-		String okorno =(x >= 10) ? "OK" : "NO";		
+		//String型の変数okorngにxが10以上のときOK、そうでなければNGを代入
+		String okorng =(x >= 10) ? "OK" : "NG";		
 		//コンソール出力 okorno
-		System.out.println(okorno);
+		System.out.println(okorng);
 		
 		
 		
