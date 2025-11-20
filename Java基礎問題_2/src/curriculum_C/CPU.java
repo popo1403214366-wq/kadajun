@@ -3,7 +3,7 @@ package curriculum_C;
 import java.util.Random;
 
 public class CPU {
-	private int hand;  //CPUの手
+	private int hand; //CPUの手
 	private Random rand = new Random(); // 乱数を生成するためのインスタンス
 
 	// CPUの手をランダムに決定する

@@ -13,6 +13,7 @@ public class Player {
 	public int getHand() {
 		return hand;
 	}
+
 	// Playerの手を文字列で返す
 	public String getHandName() {
 		switch (hand) {
