@@ -1,4 +1,4 @@
-package Polymorphism;
+package polymorphism;
 
 public class FullTimeEmployee extends Employee {
 	public FullTimeEmployee(String id, String name) {

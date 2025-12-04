@@ -1,4 +1,4 @@
-package Interfaces_and_Abstract_Classes;
+package interfaces_and_abstract_classes;
 
 public interface Billable {
 	// 1日の給与を計算するメソッド

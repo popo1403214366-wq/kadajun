@@ -1,4 +1,4 @@
-package Polymorphism;
+package polymorphism;
 
 //抽象クラス Employeeでemployeeidとnameをフィールドとして定義
 abstract class Employee {

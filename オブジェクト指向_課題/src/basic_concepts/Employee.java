@@ -1,4 +1,4 @@
-package Basic_Concepts;
+package basic_concepts;
 
 public class Employee {
 	// フィールド

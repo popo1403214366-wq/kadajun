@@ -1,4 +1,4 @@
-package Interfaces_and_Abstract_Classes;
+package interfaces_and_abstract_classes;
 
 //EmployeeクラスをContractEmployeeクラスに継承
 public class ContractEmployee extends Employee {

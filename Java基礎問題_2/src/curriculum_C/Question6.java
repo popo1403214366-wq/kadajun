@@ -13,6 +13,11 @@ public class Question6 {
 		while (true) {
 			System.out.print("グー(0), チョキ(1), パー(2) を入力: ");
 			int playerHand = scanner.nextInt(); // playrの出した手をplayerhandに(後から勝敗判定に使うため)
+			//入力チェック（0～2以外ならやり直し)
+			if (playerHand < 0 || playerHand > 2) {
+				System.out.println("0～2の数字を入力してください！");
+				continue; // ループの先頭に戻る
+			}
 			// プレイヤーとCPUの手を設定
 			player.setHand(playerHand);// Playerからメソッド呼び出し
 			cpu.setRandomHand(); // CPUからメソッド呼び出し

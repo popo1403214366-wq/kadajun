@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 //EmployeeクラスをPartTimeEmployeeクラスに継承
 public class PartTimeEmployee extends Employee {

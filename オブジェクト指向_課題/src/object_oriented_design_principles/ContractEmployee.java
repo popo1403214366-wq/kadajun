@@ -1,10 +1,10 @@
-package Object_Oriented_Design_Principles;
+package object_oriented_design_principles;
 
 //抽象クラスContractEmployeeにPayableを実装する
 public class ContractEmployee implements Payable {
 	private String name;
 	//時給１０００円の定数
-	private static final int hourlyRate = 1000;
+	private static final int HOURLYRATE = 1000;
 
 	// nameとhoursをコンストラクタ
 	public ContractEmployee(String name) {
@@ -22,6 +22,6 @@ public class ContractEmployee implements Payable {
 	//親クラスに返す計算メソッド
 	@Override
 	public int calculateSalary(int hour) {
-		return hour * hourlyRate;
+		return hour * HOURLYRATE;
 	}
 }

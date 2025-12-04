@@ -1,4 +1,4 @@
-package Object_Oriented_Design_Principles;
+package object_oriented_design_principles;
 
 import java.util.ArrayList;
 import java.util.List;

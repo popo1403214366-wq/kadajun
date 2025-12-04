@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 public abstract class Employee {
 	private String employeeId;

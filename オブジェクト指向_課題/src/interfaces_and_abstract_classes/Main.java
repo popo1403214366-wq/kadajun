@@ -1,4 +1,4 @@
-package Interfaces_and_Abstract_Classes;
+package interfaces_and_abstract_classes;
 
 import java.util.ArrayList;
 import java.util.List;
